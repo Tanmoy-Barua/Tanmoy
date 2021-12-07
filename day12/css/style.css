@@ -1,0 +1,16 @@
+p::first-line{
+    color: violet;
+}
+p::first-letter{
+    color: yellowgreen;
+}
+
+h1::selection{
+    color: yellowgreen;
+    background-color: black;
+}
+
+h1 + p::selection{
+    background-color: violet;
+    color: white;
+}
