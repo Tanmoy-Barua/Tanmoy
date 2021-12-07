@@ -1,0 +1,54 @@
+/* div  p, h2{
+    color: aqua;
+} */
+div span{
+    background-color: green;
+}
+div span p{
+    /* background-color: red; */
+    color: rgb(126, 49, 49);
+}
+/* body p:last-child{
+    color: brown;
+} */
+
+.first-para ~ ul{
+    list-style-type: none;
+    display: inline-block;
+    background-color: brown;
+}
+
+.first-para ~ ul li:last-child{
+    background-color: chartreuse;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:active{
+    color: rgb(255, 238, 0);
+}
+a:visited{
+    color: rgb(128, 0, 0);
+}
+a:hover{
+    color: rgb(42, 30, 210);
+}
+
+p:first-child{
+    color: cyan;
+}
+
+.paragraph p:first-of-type{
+    color: red;
+}
+.paragraph p:nth-last-child(2){
+    color: yellow;
+}
+/* .paragraph p:last-child{
+    color: greenyellow;
+} */
+
+

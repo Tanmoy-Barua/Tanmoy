@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+header .headingOne h1{
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+    font-style: italic;
+    padding: 5px 0;
+}
+header .headingTwo h2{
+    font-size: 30px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 50px 0;
+}
+main nav{
+    background-color: green;
+} 
+main nav .nav-items{
+    text-align: center;
+}
+main nav .nav-items  .nav-item{
+    display: inline-block;
+    padding: 20px 30px;
+}
+main nav .nav-items .nav-item a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    background-color: chartreuse;
+}
+.active > a{
+    color: black;                    
+}
+main nav .nav-items .nav-item:hover{
+    /* padding: 20px 30px; */
+    background-color: chartreuse;
+    cursor: pointer;
+    
+}
+main nav .nav-items .nav-item:hover a{
+    color: black;
+}
