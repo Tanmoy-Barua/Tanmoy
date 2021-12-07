@@ -1,16 +1,64 @@
+
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+h1 ~ p{
+    font-weight: bolder;
+    text-indent: 50px;
+    text-align: justify;
+}
 p::first-line{
     color: violet;
 }
-p::first-letter{
+/* p::first-letter{
     color: yellowgreen;
-}
+} */
 
-h1::selection{
+/* h1::selection{
     color: yellowgreen;
     background-color: black;
+} */
+h1{
+    text-shadow: 10px 5px 5px black;
 }
-
+h1 + p{
+    text-align: center!important;
+}
 h1 + p::selection{
     background-color: violet;
     color: white;
+}
+h1 ~ p{
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-style: double;
+    font-size: 20px;
+    text-decoration-color: violet;
+    
+}
+/* p:last-child::after{
+    content: "\2665";
+    color: red!important;
+    border: 2px solid black;
+    font-size: 100px;
+    
+} */
+/* ::marker{
+    color: blue;
+} */
+ol li{
+    text-shadow: 20px 15px 5px black;
+}
+ol li:last-child::marker{
+    
+    color: rgb(226, 43, 43);
+    font-size: 23px;
+}
+ul li::marker{
+    color: violet;
+    font-size: 23px;
 }
