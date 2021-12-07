@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Row 1</title>
+</head>
+<body>
+    <form action="">
+
+        <table>
+            <tr>
+                <td>
+                    <img src="images/logo.PNG" alt="logo png">
+                </td>
+                <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                <td>
+                    <b>Birth & Fetal Death Reporting (BFDR) form-DEV v1.7</b><br>
+                    based on IHE Profile
+                </td>
+            </tr>
+        </table>
+        <hr>
+
+        <fieldset>
+        <table>
+                <tr>
+                        <td>
+                            <label for="mothers_record">
+                                Mother's Medical Record
+                            </label><br>
+                            <input type="text" name="mothers_record" id="mothers_record">
+                        </td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                        <td>
+                            <label for="mothers_name">
+                                Mother's Name
+                            </label><br>
+                            <input type="text" name="mothers_name" id="mothers_name">
+                        </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">Child Details</th>
+                        <th colspan="3">Mother Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="firstname_child">First Name</label><br>
+                            <input type="text" name="firstname_child" id="firstname_child">
+                        </td>
+
+                        <td>
+                            <label for="middlename_child">Middle Name</label><br>
+                            <input type="text" name="middlename_child" id="middlename_child">
+                        </td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                        <td>
+                            <small>Mother's Current Legal Name</small><br><br>
+                            <label for="firstname_mother">First Name</label><br>
+                            <input type="text" name="firstname_mother" id="firstname_mother">
+                        </td>
+                        <td>
+                            <p style="margin-bottom: 34px;"></p>
+                            <label for="middlename_mother">Middle Name</label><br>
+                            <input type="text" name="middlename_mother" id="middlename_mother">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="lastname_child">Last Name</label><br>
+                            <input type="text" name="lastname_child" id="lastname_child">
+                        </td>
+
+                        <td>
+                            <label for="suffix_child">Suffix</label><br>
+                            <input type="text" name="suffix_child" id="suffix_child">
+                        </td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                        <td>
+                            <label for="lastname_mother">Last Name</label><br>
+                            <input type="text" name="lastname_mother" id="lastname_mother">
+                        </td>
+                        <td>
+                            <label for="suffix_mother">suffix Name</label><br>
+                            <input type="text" name="suffix_mother" id="suffix_mother">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="time_of_birth">Time Of Birth (24hr)</label><br>
+                            <select name="hour" id="" style="width: 48%;">
+                                <option value="">Hours</option>
+                            </select>
+                            <select name="minutes" id="" style="width: 48%;">
+                                <option value="">Minutes</option>
+                            </select>
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                            <label for="dateofbirth_mother">Date of Birth (Mo/Day/Year)</label><br>
+                            <input type="text" name="dateofbirth_mother" id="dateofbirth_mother" style="width: 98%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="gender_child">Gender</label><br>
+                            <select name="gender_child" id="gender_child" style="width: 98%">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="dateofbirth_mother">Date of Birth (Mo/Day/Year)</label><br>
+                            <input type="text" name="dateofbirth_mother" id="dateofbirth_mother" style="width: 94%;">
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="faculty_name">Faculty Name</label><br>
+                            <input type="text" name="faculty_name" id="faculty_name">
+                        </td>
+                        <td>
+                            <label for="faculty_id">Faculty ID</label><br>
+                            <input type="text" name="faculty_id" id="faculty_id">
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <th colspan="2">Mother's Name Prior to First Marriage</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="locationofbirth_child"> Location of Birth</label><br>
+                            <input type="text" name="locationofbirth_child" id="locationofbirth_child">
+                        </td>
+                        <td>
+                            <label for="countryofBirth">Country of Birth</label><br>
+                            <input type="text" name="countryofBirth" id="countryofBirth">
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>
+                            <label for="firstname_child">First Name</label><br>
+                            <input type="text" name="firstname_child" id="firstname_child">
+                        </td>
+
+                        <td>
+                            <label for="middlename_child">Middle Name</label><br>
+                            <input type="text" name="middlename_child" id="middlename_child">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <label for="middlename_child">Middle Name</label><br>
+                            <input type="text" name="middlename_child" id="middlename_child">
+                        </td>
+                        <td>
+                            <label for="firstname_child">Suffix</label><br>
+                            <input type="text" name="firstname_child" id="firstname_child">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Father's Detils</th>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2">
+                            <label for="dateofbirth_mother">Birth Place</label><br>
+                            <input type="text" name="dateofbirth_mother" id="dateofbirth_mother" style="width: 98%;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">First Currnet Legal Name</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="firstname_child">First Name</label><br>
+                            <input type="text" name="firstname_child" id="firstname_child">
+                        </td>
+
+                        <td>
+                            <label for="middlename_child">Middle Name</label><br>
+                            <input type="text" name="middlename_child" id="middlename_child">
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                            <label for="residence">Residense of Mother's State </label><br>
+                            <input type="text" name="residence" id="residence" style="width: 98%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="middlename_child">Middle Name</label><br>
+                            <input type="text" name="middlename_child" id="middlename_child">
+                        </td>
+                        <td>
+                            <label for="firstname_child">Suffix</label><br>
+                            <input type="text" name="firstname_child" id="firstname_child">
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                            <label for="country">Country</label><br>
+                            <input type="text" name="country" id="country" style="width: 98%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="dateofbirth_mother">Date of Birth (Mo/Day/Year)</label><br>
+                            <input type="text" name="dateofbirth_mother" id="dateofbirth_mother" style="width: 94%;">
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                            <label for="country">City, Town Or Location</label><br>
+                            <input type="text" name="country" id="country" style="width: 98%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="birthplace">Birth Place</label><br>
+                            <input type="text" name="birthplace" id="birthplace" style="width: 94%;">
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                            <label for="street_number">Street & Number</label><br>
+                            <input type="text" name="street_number" id="street_number" style="width: 98%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th colspan="2">Certifier Details</th>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                            <label for="apartment_no">Apartment No</label><br>
+                            <input type="text" name="apartment_no" id="apartment_no" style="width: 98%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="certifier_details">Certifier Details</label><br>
+                            <input type="text" name="certifier_details" id="certifier_details" style="width: 94%;">
+                        </td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                            <label for="zipcode">Zip Code</label><br>
+                            <input type="text" name="zipcode" id="zipcode" style="width: 98%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="title">Title</label><br>
+                            <input type="radio" name="title" id="md" value="md">
+                            <label for="md">MD</label>
+
+                            <input type="radio" name="title" id="do" value="do">
+                            <label for="do">DO</label>
+
+                            <input type="radio" name="title" id="hos_admin" value="hospital admin">
+                            <label for="hos_admin">Hospital Admin</label>
+
+                            <input type="radio" name="title" id="cnmCm" value="CNM/CM">
+                            <label for="cnmCm">CNM/CM</label>
+                            <br>
+                            <input type="radio" name="title" id="otherMidwife" value="otherMidWife">
+                            <label for="otherMidwife">Other Mid Wife</label>
+
+                            <input type="radio" name="title" id="others" value="others">
+                            <label for="others">Other (Specify)</label><br>
+                            <input type="text" name="others" id="others" style="width: 95%;">
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td colspan="2">
+                            <label for="citylimit">Inside City Limit?</label><br>
+                            <input type="radio" name="citylimit" id="citylimit" value="yes">
+                            <label for="citylimityes">Yes</label>
+                            <input type="radio" name="citylimit" id="citylimit" value="no">
+                            <label for="citylimitni">No</label>
+                        </td>
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="middlename_child">Date Certified</label><br>
+                            <input type="text" name="middlename_child" id="middlename_child">
+                        </td>
+                        <td>
+                            <label for="firstname_child">Date Field By Register</label><br>
+                            <input type="text" name="firstname_child" id="firstname_child">
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="telephone">Telephone</label><br>
+                            <input type="tel" name="telephone" id="telephone" style="width: 95%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="url">URL#</label><br>
+                            <input type="url" name="telephone" id="telephone" style="width: 95%;">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="refering_hospital">Referring Hospital</label><br>
+                            <input type="text" name="refering_hospital" id="refering_hospital" style="width: 95%;">
+                        </td>
+                    </tr>
+
+                   
+
+                </tbody>
+            </table>
+        </fieldset>
+
+        <br>
+        <h2>Information for Medical and Health Purpose Only</h2>
+        <fieldset>
+            <h4>Mother</h4>
+            <p>Mother's Education (Check the the box that best describe the highest degree or level of school complete at the time of delivery)</p>
+
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+
+            <input type="radio" name="mother_education" id="mother_education_9th_12th" value="9th-12th grade, no diploma">
+            <label for="mother_education_9th_12th">9th-12th grade, no diploma</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <br><br>
+
+
+            <p>Mother of Hispanic Origin? (Check the the box that best describe the highest degree or level of school complete at the time of delivery)</p>
+
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+
+            <input type="radio" name="mother_education" id="mother_education_9th_12th" value="9th-12th grade, no diploma">
+            <label for="mother_education_9th_12th">9th-12th grade, no diploma</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">Yes, Others(Specify)</label><br>
+            <input type="text" name="mother_education" id="mother_education_ged">
+
+           <br><br>
+
+           <p>Mother's Race (Check the the box that best describe the highest degree or level of school complete at the time of delivery)</p>
+           <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+
+            <input type="radio" name="mother_education" id="mother_education_9th_12th" value="9th-12th grade, no diploma">
+            <label for="mother_education_9th_12th">9th-12th grade, no diploma</label>
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">Yes, Others(Specify)</label>
+            <input type="text" name="mother_education" id="mother_education_ged">
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            
+
+            <!-- sencond block -->
+
+
+            <p>Mother's Education (Check the the box that best describe the highest degree or level of school complete at the time of delivery)</p>
+
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+
+            <input type="radio" name="mother_education" id="mother_education_9th_12th" value="9th-12th grade, no diploma">
+            <label for="mother_education_9th_12th">9th-12th grade, no diploma</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <br><br>
+
+
+            <p>Mother of Hispanic Origin? (Check the the box that best describe the highest degree or level of school complete at the time of delivery)</p>
+
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+
+            <input type="radio" name="mother_education" id="mother_education_9th_12th" value="9th-12th grade, no diploma">
+            <label for="mother_education_9th_12th">9th-12th grade, no diploma</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">High School Graduate or GED Complete</label>
+
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">Yes, Others(Specify)</label><br>
+            <input type="text" name="mother_education" id="mother_education_ged">
+
+           <br><br>
+
+           <p>Mother's Race (Check the the box that best describe the highest degree or level of school complete at the time of delivery)</p>
+           <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+
+            <input type="radio" name="mother_education" id="mother_education_9th_12th" value="9th-12th grade, no diploma">
+            <label for="mother_education_9th_12th">9th-12th grade, no diploma</label>
+            <input type="radio" name="mother_education" id="mother_education_ged" value="High School Graduate or GED Complete">
+            <label for="mother_education_ged">Yes, Others(Specify)</label>
+            <input type="text" name="mother_education" id="mother_education_ged">
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+            <input type="radio" name="mother_education" id="mother_education_8th" value="8th grade or less">
+            <label for="mother_education_8th">8th grade or less</label>
+
+        </fieldset>
+        <br>
+        <h3>Birth Information</h3>
+        <br>
+        <fieldset>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <label for="faculty_name">Faculty Name</label><br>
+                        <input type="text" name="faculty_name" id="faculty_name">
+                    </td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td colspan="2">
+                        <label for="faculty_id">Faculty ID</label><br>
+                        <input type="text" name="faculty_id" id="faculty_id">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <label for="location">Country, Town or Location of Birth</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td colspan="2">
+                        <label for="birth_country">Country of Birth</label><br>
+                        <input type="text" name="birth_country" id="birth_country">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="6">
+                        <label for="place_of_birth">Place of Birth</label><br>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <br>
+                        <input type="radio" name="others" id="others" value="others">
+                        <label for="others">Others</label><br>
+                        <input type="text" name="others" id="others" style="width: 98%;">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br><br>
+
+        <h3>Prenatal</h3>
+
+        <fieldset>
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <label for="location">Date of first Prenatal care visit</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td colspan="2">
+                        <label for="location">Date of last Prenatal care visit</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="location">Date of first Prenatal care visit</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td colspan="2">
+                        <label for="location">Date of last Prenatal care visit</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="location">Date of first Prenatal care visit</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td colspan="2">
+                        <label for="location">Date of last Prenatal care visit</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="location">Date of first Prenatal care visit</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td colspan="2">
+                        <label for="location">Date of last Prenatal care visit</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="location">Date of first Prenatal care visit</label><br>
+                        <input type="text" name="location" id="location">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+        <h3>Pregnancy</h3>
+
+        <fieldset>
+            <table>
+                <tr>
+                    <th colspan="4">Risk Factor in This Pregnancy</th>
+                    <th colspan="4">Infections Present and/or Threded during this Pregnancy</th>
+                </tr>
+                <tr>
+                    <td>(check all that apply)</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>(check all that apply)</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label><br>
+
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label><br>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <br><br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label><br>
+
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label><br>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label><br>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <br><br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label>
+                        <br><br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label><br>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label><br>
+                        
+                    </td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label><br>
+
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label><br>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <br><br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label><br>
+
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label><br>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label><br>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label>
+                        <br><br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label>
+                        <br><br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="others" id="others" value="others">
+                        <label for="others">Diabeties</label><br>
+                        <input type="radio" name="hospital" id="hospital" value="hospital">
+                        <label for="hospital">Hospital</label><br>
+                        
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="submit">
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
